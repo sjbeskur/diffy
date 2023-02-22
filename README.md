@@ -1,5 +1,11 @@
 # Diffy
 
+''' bash
+rustup target list
+rustup target add aarch64-unknown-linux-gnu
+rustup target add x86_64-unknown-linux-gnu  
+'''
+
 Build for aarch64
 
 ``` bash
