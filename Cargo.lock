@@ -241,6 +241,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "diffy-patch"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "argh",
+ "bidiff",
+ "bipatch",
+ "byteorder",
+ "comde",
+ "crossbeam-utils",
+ "env_logger",
+ "hmac-sha256",
+ "integer-encoding 3.0.4",
+ "log",
+ "pipe",
+ "size",
+]
+
+[[package]]
 name = "divsufsort"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
