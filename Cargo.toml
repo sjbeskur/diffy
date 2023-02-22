@@ -1,0 +1,30 @@
+[package]
+name = "diffy"
+version = "0.1.0"
+edition = "2021"
+description = "A bsdiff-derived binary patching tool - example CLI tool"
+license = "Apache-2.0 OR MIT"
+authors = ["Sam Beskur <sjbeskur@advanceddatamachines.com>"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bidiff = { version = "1.0.0" , features = ["enc"] }
+bipatch = "1.0.0"
+
+log = "0.4.17"
+env_logger = "0.10.0"
+byteorder = "1.4.3"
+integer-encoding = "3.0.4"
+hmac-sha256 = "1.1.6"
+size = "0.4.1"
+pipe = "0.4.0"
+crossbeam-utils = "0.8.14"
+argh = "0.1.10"
+anyhow = "1.0.68"
+
+[dependencies.comde]
+version = "0.2.3"
+default-features = false
+features = ["snappy", "deflate", "zstandard", "brotli"]
