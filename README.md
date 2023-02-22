@@ -1,5 +1,7 @@
 # Diffy
 
+`diffy` is simple command line utility for generating binary diffs 100% based on the excellent "bidiff" project examples.
+
 ''' bash
 rustup target list
 rustup target add aarch64-unknown-linux-gnu
